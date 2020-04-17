@@ -1,0 +1,22 @@
+//
+//  UserCancelOrderResponse.m
+//  FlightProject
+//
+//  Created by longcd on 12-6-15.
+//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//
+
+#import "UserCancelOrderResponse.h"
+
+@implementation UserCancelOrderResponse
++(void)userCancelOrderResponseWithArray:(NSArray *)resultArray
+{
+    if ([[resultArray objectAtIndex:0] isEqualToString:@"0"]) {
+        [UIAlertView alertViewWithMessage:@"订单取消成功"];
+    }
+    else {
+        [UIAlertView alertViewWithMessage:[resultArray objectAtIndex:1]];
+    }
+    
+}
+@end

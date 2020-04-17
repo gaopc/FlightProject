@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+*{ padding:0px; margin:0px;}
+#content{ background:#FFF; font-size:14px; padding:10px; line-height:24px; font-family:'Microsoft YaHei'; }
+.parentdiv{border-bottom:#cccccc dotted 1px; margin-bottom:15px;}
+#content h2{ font-size:16px; margin-bottom:10px; color:#333333; font-weight:normal; cursor:pointer;}
+.plane_infor{ word-wrap:break-word; color:#666666;padding-bottom:15px;display:none; }
+.red{ color:#FF0000;}
+.txt_indent{ text-indent:2em;}
+.redaril{ font-family:Arial;color:#FF0000;}
+</style>
+<script src="jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="tabs.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+	<div class="parentdiv">
+        <h2 class="help_tt">1.每次提交订单最多可预订多少张机票？</h2>
+        <div class="plane_infor">
+        <p class="txt_indent">我们的客户端每笔订单最多可预订9张机票；当乘客数在10位成人以上（含10人，儿童2位可算为1位成人，婴儿不算）且行程、旅行日期和航班都相同的乘客，可在航班起飞前三个工作日致电24小时客服热线<strong class="redaril">400-6858-999</strong>，申请团队票。</p> 
+        </div>
+    </div>
+   <div class="parentdiv">
+        <h2 class="help_tt">2.是否可以预订儿童票，怎么预订？</h2>
+        <div class="plane_infor">
+        <p class="txt_indent">可以预订儿童票。您只要在乘客类型中选择“儿童”，输入姓名和出生日期，即可预订。</p>
+		<p class="txt_indent">儿童票要求在乘机日期时，年龄为2-12周岁的儿童。</p>
+		<p class="txt_indent"><span class="red">温馨提醒： 儿童票票价为全价票的一半价格，机场建设费免收，燃油税为成人价的一半。儿童乘机需要有成人陪伴，每1名成人最多携带2名儿童乘机。</span></p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">3.是否可以预订婴儿票，怎么预订？</h2>
+        <div class="plane_infor">
+        <p class="txt_indent">掌上航旅暂不支持预订婴儿客票。如果您需要预订婴儿票，您可以到机场柜台办理机票订购，或致电24小时客服热线<strong class="redaril">400-6858-999</strong>。</p>
+		<p class="txt_indent">温馨提醒：婴儿客票年龄要求：14天-2周岁</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">4.可以预订多久之后起飞的航班？</h2>
+        <div class="plane_infor">
+        <p class="txt_indent">您最近可以预订1小时之后起飞的航班，最晚１年之内的航班。</p>
+        </div>
+    </div>
+     <div class="parentdiv">
+        <h2 class="help_tt">5.什么是联程，如何预订联程机票？</h2>
+        <div class="plane_infor">
+        <p class="txt_indent">联程指从始发地出发经一个机场中转到达目的地的航程。联程机票是含有两个乘机联、使用两个不同航班号的机票。</p>
+<p class="txt_indent">根据始发地和目的地之间有没有直达航线进行判断，当无直达航线，我们会提供有中转城市的两段航程，以便于你能快捷到达目的地。（如果有多个中转城市，我们将以航程远近从近到远依次排序）</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">6.什么是经停？经停需要下飞机吗？</h2>
+        <div class="plane_infor">
+      航班经停：经过某地区再有乘客登机和装载货物，一般国内航班会停留１小时左右。<br> 
+国内航班大部分都是不能下飞机的，如要下飞机也只是头等舱才可以在候机室休息。
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">7.什么是机建燃油费？</h2>
+        <div class="plane_infor">
+      		<p class="txt_indent">机场建设费是筹集机场建设经费而设立的。机场的修建在早期有民航系统和地方两种渠道，为了保证地方的投资回报，这一制度就一直保留下来。</p>
+			<p class="txt_indent">燃油费是为适当缓解油价大幅上涨给航空公司带来的成本增支压力，而收取的费用。</p>
+			<p class="txt_indent">机场建设费和燃油费均不算在机票的票面价里。</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">8.怎样订购国际机票？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">客户端目前暂不支持国际机票预定，请拨打<strong class="redaril">400-6858-999</strong>咨询。</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">9.为什么预订的座位会被取消？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">在两种情况下预订的座位可能被取消：</p> 
+<p class="txt_indent">1)暂缓出票的订单：因为机票随订随售，航空公司在机位紧张的情况下有权取消未出票的订座。建议您确定行程后尽早通知出票，以免订座被航空公司取消。</p> 
+<p class="txt_indent">2)航班取消：原订航班取消航行时，您的订座会被航空公司取消。此种情况航空公司通知我们后，我们会立即与您联系。</p>
+<p class="txt_indent">3)同一个姓名和证件在同一个航班预订了两张及以上的座位。（包括不同渠道）</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">10.需要多久可以出票？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">当您支付成功后，我们可实时出票。</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">11.机票上乘机人姓名错了，怎么办？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">据民航规定，机票不能涂改。若乘客姓名错误，请办理退票，重新预订。</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">12.我订了机票，如何报销？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">目前都是电子机票形式，行程单就可以做为报销凭证。</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">13.我可以通过什么方式获取到行程单？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">1）可以通过我们的终端机自助打印行程单；</p>
+<p class="txt_indent">2）可以在提交订单时将您的接受邮寄地址提交，我们将以挂号信的方式免费邮寄给您。</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">14.怎么进行退票？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">1）在我的订单-机票订单列表中找到您要退票的订单，进入详情，确认您需要退票的票号，点击退票，选择退款方式即可马上退票；</p>
+<p class="txt_indent">2）直接拨打客服热线<strong class="redaril">400-6858-999</strong>进行退票。</p>
+        </div>
+    </div>
+    <div class="parentdiv">
+        <h2 class="help_tt">15.	退票款以什么方式返还，需要多长时间？</h2>
+        <div class="plane_infor">
+      	<p class="txt_indent">客户以什么支付方式购买机票，退票款以原支付方式退还。如果您未获取行程单，票款将在您提交退票的十个工作日内退还原支付方式中；如果您已取得行程单，票款将在我们收到您寄回的行程单后的十个工作日内退还原支付方式中。</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

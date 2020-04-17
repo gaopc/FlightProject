@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'FlightProject' target in the 'FlightProject' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import "Header.h"
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "RootViewController.h"
+#import "SendRequstCatchQueue.h"
+#import "InterfaceClass.h"
+#import "MyExtend.h"
+#import "UserInfo.h"
+#import "DataClass.h"
+#import "MobClick.h"
+
+#endif
